@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="logo">Header Logo</div>
-            <ul class="header-links">
+            <ul id="header-links">
                 <a href="#"><li>header link one</li></a>
                 <a href="#"><li>header link two</li></a>
                 <a href="#"><li>header link three</li></a>
@@ -20,7 +20,7 @@
             <div class="hero-text">
                 <h1 class="hero-maintext">This website is awesome</h1>
                 <p class="hero-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color ir lower contrast</p>
-                <a href="#"><button class="signup">Sign up</button></a>
+                <a class="hero-signup" type="button" onclick="link" href="#">Sign up</a>
             </div>
 
             <div class="hero-img">
@@ -61,7 +61,21 @@
             </div>
         </section>
 
-        
+        <section class="cta-section">
+
+            <div class="cta">
+              <div class="cta-text">
+                <h2 class="cta-title">Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+              </div>
+
+              <div class="cta-button">
+                <a class="signup" type="button" onclick="link" href="#">Sign up</a>
+              </div>
+
+            </div>
+
+    </section>
     </body>
 
 
