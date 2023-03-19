@@ -84,3 +84,33 @@ a, ul {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;   
+}
+
+.card-img {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.info-section {
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.card {
+    /* Flexbox */
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    width: 200px;
+
+}
